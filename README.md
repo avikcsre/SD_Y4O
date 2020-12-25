@@ -3,7 +3,7 @@
 [ SD_Y4O_1.m ]
 
 ** Input: **
-  T3 matrix  in PolSARPro format (T11, T12_real.bin, T12_imag.bin, …, T33)
+  C3 matrix  in PolSARPro format (C11, C22, C33, ReC12, ImC12, C12, C21, ReC13, ImC13, C13, C31, ReC23, ImC23, C23, C32)
 	Number of Rows
 	Number of Cols
 	Number of Looks (put arbitrary, e.g: 9)
@@ -16,7 +16,7 @@
 [ SD_Y4O_2.m ]
 
 ** Input: **
-  T3 matrix in PolSARPro format (T11, T12_real.bin, T12_imag.bin, …, T33), 
+  T3 matrix in PolSARPro format (T11, T22, T33, T12_real, T12_imag, T13_real, T13_imag, T23_real, T23_imag), 
   THEETA_HD.bin (from previous output)
   Enter Look Search Range
   Enter step size for L
